@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Movie Guesser</title>
+</head>
+<body onload="generateMovie()" class="bg-secondary">
+    <div class="container">
+        <div class="card bg-light mb-3 mt-5">
+            <div id="card-body" class="card-body text-center bg-light">
+                <ul class="list-group-flush pr-5 bg-light">
+                    <li class="list-group-item bg-light" class="p-8">
+                        <h2>Badly Explained Movies</h2>
+                    </li>
+                    <li id="explanation" class="list-group-item bg-light">
+                    </li>
+                    <li class="list-group-item bg-light">
+                        <div class="input-group mb-3">
+                            <input id="guess" type="text" class="form-control" placeholder="Enter guess here">
+                        </div>
+                        <div>
+                            <button id="submit" type="button" class="btn btn-primary btn-block">Submit</button>
+                        </div>
+                    </li>
+                    <li class="list-group-item bg-light">
+                        <div>
+                            <button id="hint" type="button" class="btn btn-secondary btn-block">Show hint</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

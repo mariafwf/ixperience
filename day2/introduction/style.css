@@ -1,0 +1,25 @@
+body {
+    background-color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#pronouns {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#name {
+    font-style: bold;
+}
+
+#uni {
+    color: indigo;
+    font-weight: 700;
+}
